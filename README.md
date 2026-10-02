@@ -30,6 +30,7 @@ dotnet build --no-restore
 dotnet run --project LogiCore.App --no-build -- --demo-only
 dotnet test --no-restore
 ```
+При запуске приложение само показывает обязательный демо-сценарий. Без параметра `--demo-only` после него открывается простое меню.
 
 ## Соответствие требованиям
 
@@ -58,6 +59,6 @@ dotnet test --no-restore
 4. **Observer** - `ConsoleNotifier` и `FileLogger` подписаны на события `DeliveryService`.
 5. **Singleton** - `LogisticsSettings.Instance` хранит единственный экземпляр настроек через `Lazy<T>`.
 
-При запуске приложение само показывает обязательный демо-сценарий. Без параметра `--demo-only` после него открывается простое меню.
+
 
 
