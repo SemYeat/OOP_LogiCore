@@ -59,6 +59,6 @@ dotnet test --no-restore
 4. **Observer** - `ConsoleNotifier` и `FileLogger` подписаны на события `DeliveryService`.
 5. **Singleton** - `LogisticsSettings.Instance` хранит единственный экземпляр настроек через `Lazy<T>`.
 
-[![Проверка проекта](https://github.com/SemYeat/LogiCore_60/actions/workflows/dotnet.yml/badge.svg)](https://github.com/SemYeat/LogiCore_60/actions/workflows/dotnet.yml)
+[![Проверка проекта](https://github.com/SemYeat/OOP_LogiCore/actions/workflows/dotnet.yml/badge.svg)](https://github.com/SemYeat/OOP_LogiCore/actions/workflows/dotnet.yml)
 
 
